@@ -1,0 +1,7 @@
+num=input()
+tmp=int(num)
+if tmp>1000000000 or tmp<1:quit()
+num_list = list(num)
+num_list.sort(reverse=True)
+for i in num_list:print(i,end='')
+print()
